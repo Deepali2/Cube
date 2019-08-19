@@ -26,7 +26,7 @@ const playPause = () => {
     interval = setInterval(() => {
       x -= 90;
       rotate();
-    }, 1000);
+    }, 3000);
     changePlayPause();
     play = false;
   } else {
